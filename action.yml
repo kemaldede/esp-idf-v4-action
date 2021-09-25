@@ -9,7 +9,7 @@ inputs:
   esp_idf_version:
     description: 'Required ESP-IDF version (v4.1, release/v4.2, ...)'
     required: false
-    default: 'v4.1'
+    default: 'latest'
 
 runs:
   using: "composite"
