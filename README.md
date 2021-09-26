@@ -7,10 +7,7 @@ building ESP32 code. It uses Espressif's official Docker container skipping the 
 
 The usable ESP-IDF versions are:
 
-- `latest` (based on release/v4.2)
-- `v4.2`, v4.2.x, `release/v4.2`
-- `v4.1`, v4.1.x, `release/v4.1`
-- v4.0.x, `release/v4.0`
+- `latest` (based on release/v4.3)
 
 **Note:** The action is built for Ubuntu 20.04 LTS. It may or may not work with other Ubuntu or Debian versions.
 
