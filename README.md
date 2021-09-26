@@ -42,9 +42,9 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Install ESP-IDF
-        uses: CalinRadoni/esp-idf-v4-action@v2
+        uses: kemaldede/esp-idf-v4-action@v2
         with:
-          esp_idf_version: 'v4.1'
+          esp_idf_version: 'latest'
 
       - name: Build
         run: |
